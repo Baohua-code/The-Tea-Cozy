@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+    color: seashell;
+}
+
+h2,
+h3,
+h4, 
+h5 {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    z-index: 1;
+}
+
+header img {
+    height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+span a  {
+    padding: 20px 10px;
+}
+
+#mission  {
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    padding-top: 70px;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#mission .content {
+  position:absolute;
+  vertical-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+#featured-tea {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  margin-top: 800px;
+  text-align: center;
+  background-color: black;
+}
+
+#featured-tea .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: black;
+  width: 100%;
+}
+
+.item img {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+  display: block;
+  text-align: center;
+  font-size: bold;
+  margin: 10px;
+}
+
+#locations {
+  height: 500px;
+  width: 100%;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg") ;
+  margin-top: 70px;
+  display: block;
+}
+
+.locations-text h2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.three-locations {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.location {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  flex-flow: row;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 1;
+  line-height: 50px;
+}
+
+#contact {
+  height: 200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  position: relative;
+  right: 400px;
+}
+
+
+
+
+
